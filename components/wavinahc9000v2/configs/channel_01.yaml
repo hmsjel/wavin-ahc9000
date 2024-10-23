@@ -68,7 +68,7 @@ number:
     value_type: U_WORD
     unit_of_measurement: "°C"
     min_value: 6
-    max_value: 40
+    max_value: 30
     step: .1
     write_lambda: |-
       ESP_LOGD("main", "Trying to write new target temp: %f",x);
