@@ -69,7 +69,7 @@ number:
     unit_of_measurement: "°C"
     min_value: 6
     max_value: 40
-    step: .5
+    step: .1
     write_lambda: |-
       ESP_LOGD("main", "Trying to write new target temp: %f",x);
       uint16_t targettemp = x * 10;
