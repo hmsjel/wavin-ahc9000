@@ -1,7 +1,8 @@
 external_components:
   - source: 
       type: git
-      url: https://github.com/heinekmadsen/esphome_components
+      #url: https://github.com/heinekmadsen/esphome_components
+      url: https://github.com/hmsjel/wavin-ahc9000
       ref: main
     refresh: 0s
     components: [wavinahc9000v2]
@@ -10,7 +11,8 @@ external_components:
   - source:
       type: git
       url: https://github.com/esphome/esphome
-      ref: 2022.5.1
+      #ref: 2022.5.1
+      ref: 2024.11.2
     components: [ modbus, modbus_controller ]
     refresh: 0s
 
